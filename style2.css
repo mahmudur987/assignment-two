@@ -75,7 +75,8 @@ body {
 
 #hyperblog {
     background-color: red;
-    color: aliceblue;
+    color: rgb(58, 18, 18);
+    font-size: 30px;
 }
 
 .option {
@@ -93,7 +94,7 @@ body {
     background-color: black;
     border-radius: 20px;
     margin-right: 20px;
-    height: 35%;
+    height: 90%;
 
 
 }
@@ -118,11 +119,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 94%;
+    align-items: center;
 }
 
-.blog img {
-    width: 95%;
+.flag {
+    display: flex;
+    font-size: 40px;
 }
+
 
 .transfar {
     background-color: azure;
@@ -167,23 +171,18 @@ body {
     display: flex;
     justify-content: space-around;
 
-
 }
-
 
 .about a {
     text-decoration: none;
     color: gray;
     font-size: 1.1em;
-
 }
 
 .social-media {
     font-size: 2.5em;
     visibility: hidden;
 }
-
-
 
 
 /* media screen for mobile  */
@@ -212,37 +211,16 @@ body {
 
     .footer {
         height: 100%;
-        background-color: aliceblue;
-
     }
+
+
 
     .about {
         display: flex;
-    }
-
-    .about a {
-        display: none;
+        flex-direction: column;
+        align-items: center;
     }
 }
-
-.social-media a {
-    visibility: visible;
-    font-size: 20px;
-}
-
-.social-media {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 /* media screen for tab  */
 
@@ -266,6 +244,10 @@ body {
         flex-direction: row;
     }
 
+    #hyperblog {
+        height: 100%;
+    }
+
     .options {
 
         background-color: aliceblue;
@@ -274,6 +256,7 @@ body {
 
     .blogs {
         grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
     }
 
     .about {
