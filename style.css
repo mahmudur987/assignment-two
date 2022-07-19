@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto+Mono&family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    max-width: 1300px;
+    marginuto;
+
+}
+
+/* heder area  */
+.head-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 32);
+    margin-bottom: 50px;
+}
+
+.heading {
+    width: 50%;
+    color: beige;
+}
+
+.heading h1 {
+    font-size: 3.5em;
+}
+
+.heading p {
+    font-size: 1.5em;
+}
+
+.watch-live {
+    background-color: tomato;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.picture {
+    width: 50%;
+    height: 1.5em;
+}
+
+.midarea {
+    display: grid;
+    grid-template-columns: 400px repeat(1, 1fr);
+}
+
+
+/* main area  */
+
+
+.option a {
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+#hyperblog {
+    background-color: red;
+    color: aliceblue;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.option a:hover {
+    background-color: red;
+}
+
+.options {
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 400px;
+
+
+}
+
+
+
+
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.transfar {
+    background-color: azure;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.blog-details {
+    font-size: 15px;
+}
+
+.icon {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
