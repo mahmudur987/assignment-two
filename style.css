@@ -23,6 +23,7 @@ body {
     margin-left: 20px;
     padding: 30px;
     border-radius: 20px;
+    width: 96%;
 }
 
 @keyframes sliding {
@@ -30,18 +31,22 @@ body {
     0% {
         left: 0;
         top: 0;
-        background-color: yellow;
+        background-color: yellowgreen;
+
     }
 
     50% {
         top: 350px;
+        background-color: white;
+
     }
 
     100% {
         top: 0;
         background-color: red;
-        left: 750px;
+        left: 1000px;
         transform: rotate(360deg);
+
     }
 
 }
@@ -56,7 +61,7 @@ body {
     height: 50px;
     border-radius: 50%;
     position: relative;
-    animation: sliding 6s ease-in-out 5s infinite alternate;
+    animation: sliding 6s ease-in-out 1s infinite alternate;
     animation-play-state: running;
 }
 
@@ -85,7 +90,11 @@ body {
 
 .picture {
     width: 50%;
-    height: 1.5em;
+}
+
+.picture img {
+    width: 80%;
+    height: 100%;
 }
 
 
@@ -145,6 +154,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 20px;
+
+
 }
 
 
@@ -153,11 +164,12 @@ body {
 .blog {
     display: flex;
     flex-direction: column;
-    width: 94%;
+    width: 100%;
 }
 
 .blog img {
     width: 95%;
+    height: 200px;
 }
 
 .transfar {
