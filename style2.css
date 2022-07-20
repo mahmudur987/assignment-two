@@ -19,8 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(2, 2, 32);
-    margin-bottom: 50px;
-    margin-left: 20px;
+    margin-bottom: 200px;
+
     padding: 30px;
     border-radius: 20px;
 }
@@ -47,9 +47,9 @@ body {
     color: aliceblue;
 }
 
-.picture {
-    width: 50%;
-    height: 1.5em;
+.picture img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -58,6 +58,7 @@ body {
 .midarea {
     display: grid;
     grid-template-columns: 400px repeat(1, 1fr);
+    margin-bottom: 200px;
 }
 
 .option a {
@@ -98,11 +99,6 @@ body {
 
 
 }
-
-
-
-
-
 
 
 .blogs {
@@ -154,6 +150,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .footer h1 {
@@ -196,12 +193,19 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: darkblue;
+
     }
 
     .midarea {
         display: flex;
         flex-direction: column;
         margin-top: 400px;
+    }
+
+    .options {
+        margin-bottom: 2%;
+
     }
 
     .blogs {
@@ -250,7 +254,7 @@ body {
 
     .options {
 
-        background-color: aliceblue;
+        background-color: darkblue;
         width: 100%;
     }
 

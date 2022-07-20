@@ -20,10 +20,9 @@ body {
     justify-content: space-between;
     background-color: rgb(2, 2, 32);
     margin-bottom: 50px;
-    margin-left: 20px;
     padding: 30px;
     border-radius: 20px;
-    width: 96%;
+    width: 100%;
 }
 
 @keyframes sliding {
@@ -103,7 +102,17 @@ body {
 .midarea {
     display: grid;
     grid-template-columns: 400px repeat(1, 1fr);
+    margin-left: 1%;
 }
+
+/* option select area  */
+.options {
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 35%;
+}
+
 
 .option a {
     background-color: white;
@@ -134,32 +143,15 @@ body {
     background-color: red;
 }
 
-.options {
-    background-color: black;
-    border-radius: 20px;
-    margin-right: 20px;
-    height: 35%;
-
-
-}
-
-
-
-
-
-
+/* blogs area  */
 
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     grid-row-gap: 20px;
-
-
+    width: 100%;
 }
-
-
-
 
 .blog {
     display: flex;
@@ -312,6 +304,10 @@ body {
 
 
     .container {
+        width: 100%;
+    }
+
+    .head-div {
         width: 100%;
     }
 
