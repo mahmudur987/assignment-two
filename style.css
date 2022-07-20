@@ -45,6 +45,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: aliceblue;
+    border-radius: 10px;
 }
 
 .picture {
@@ -141,6 +142,11 @@ body {
     font-size: 18px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.view-all {
+    background-color: black;
+    visibility: hidden;
 }
 
 
@@ -281,6 +287,11 @@ body {
 
     .blogs {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        visibility: visible;
+        margin-bottom: 10%;
     }
 
     .footer-details {
